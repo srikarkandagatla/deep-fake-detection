@@ -1,8 +1,10 @@
 # deep-fake-detection
 Enhancing Deep Fake Detection In Multimedia: A Fusion of CNN and RNN Approaches
 
+## About Repository
 Within this repository, you'll discover three notebooks: "Deep Fake Detection on Images," "Deep Fake Detection on Images (XCEPTION)," and "Deep Fake Detection on Videos."
 
+## About Datasets
 The dataset utilized for "Deep Fake Detection on Images" and "Deep Fake Detection on Images (XCEPTION)" can be accessed at the following link: https://www.kaggle.com/datasets/dagnelies/deepfake-faces
 
 Regarding the dataset used for image detection, it comprises two main components - a metadata CSV file and a folder named "faces_224." The metadata.csv file provides detailed information about each image found in the "faces_224" folder, specifying whether an image is categorized as "Real" or "Fake." The "videoname" column in the metadata file corresponds to the names of images within the "faces_224" folder, while the "label" column designates the class of each image, either "Fake" or "Real."
