@@ -21,17 +21,17 @@ Tables 1 and 2 provide a comprehensive overview of performance metrics for all m
 ### Table 1: Training and Validation Metrics
 | Dataset          | Model           | Epochs | Accuracy | Loss  | Validation Accuracy | Validation Loss |
 |------------------|-----------------|--------|----------|-------|---------------------|-----------------|
-| deepfake_faces   | CNN             | 15     | 0.502    | 0.700 | 0.501               | 0.692           |
-| deepfake_faces   | Xception        | 5      | 0.983    | 0.046 | 0.819               | 0.778           |
-| Celeb-DF(v2)     | Inception-RNN   | 10     | 0.627    | 0.493 | 0.657               | 0.651           |
+| deepfake_faces   | <div align="center">CNN</div> | <div align="center">15</div> | <div align="center">0.502</div> | <div align="center">0.700</div> | <div align="center">0.501</div> | <div align="center">0.692</div> |
+| deepfake_faces   | <div align="center">Xception</div> | <div align="center">5</div> | <div align="center">0.983</div> | <div align="center">0.046</div> | <div align="center">0.819</div> | <div align="center">0.778</div> |
+| Celeb-DF(v2)     | <div align="center">Inception-RNN</div> | <div align="center">10</div> | <div align="center">0.627</div> | <div align="center">0.493</div> | <div align="center">0.657</div> | <div align="center">0.651</div> |
 
 **Table 1**: shows the training and validation metrics including accuracy, loss, validation accuracy, and validation loss during the training of the models.
 
 ### Table 2: Testing Set Evaluation Metrics
 | Dataset          | Model           | Precision | F1 Score | Recall |
 |------------------|-----------------|-----------|----------|--------|
-| deepfake_faces   | CNN             | 0.504     | 0.624    | 0.819  |
-| deepfake_faces   | Xception        | 0.865     | 0.807    | 0.756  |
-| Celeb-DF(v2)     | Inception-RNN   | 0.643     | 0.653    | 0.664  |
+| deepfake_faces   | <div align="center">CNN</div> | <div align="center">0.504</div> | <div align="center">0.624</div> | <div align="center">0.819</div> |
+| deepfake_faces   | <div align="center">Xception</div> | <div align="center">0.865</div> | <div align="center">0.807</div> | <div align="center">0.756</div> |
+| Celeb-DF(v2)     | <div align="center">Inception-RNN</div> | <div align="center">0.643</div> | <div align="center">0.653</div> | <div align="center">0.664</div> |
 
 **Table 2**: presents the evaluation metrics including precision, F1 score, and recall on the testing set for each model.
