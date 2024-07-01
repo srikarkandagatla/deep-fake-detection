@@ -18,22 +18,20 @@ A Recurrent Neural Network (RNN) with Inception_v3 transfer learning is implemen
 ## Results
 Tables 1 and 2 provide a comprehensive overview of performance metrics for all models, including accuracy, loss, val_accuracy, val_loss, precision, F1 score, and recall. Accuracy represents overall training set performance, while val_accuracy indicates testing set accuracy during training. Precision, F1 score, and recall are crucial metrics for image and video prediction on the validation set.
 
-### Table 3: Training and Validation Metrics
-
+### Table 1: Training and Validation Metrics
 | Dataset          | Model           | Epochs | Accuracy | Loss  | Validation Accuracy | Validation Loss |
 |------------------|-----------------|--------|----------|-------|---------------------|-----------------|
 | deepfake_faces   | CNN             | 15     | 0.502    | 0.700 | 0.501               | 0.692           |
 | deepfake_faces   | Xception        | 5      | 0.983    | 0.046 | 0.819               | 0.778           |
 | Celeb-DF(v2)     | Inception-RNN   | 10     | 0.627    | 0.493 | 0.657               | 0.651           |
 
-*Note: Table 3 shows the training and validation metrics including accuracy, loss, validation accuracy, and validation loss during the training of the models.*
+**Table 1**: shows the training and validation metrics including accuracy, loss, validation accuracy, and validation loss during the training of the models.
 
-### Table 4: Testing Set Evaluation Metrics
-
+### Table 2: Testing Set Evaluation Metrics
 | Dataset          | Model           | Precision | F1 Score | Recall |
 |------------------|-----------------|-----------|----------|--------|
 | deepfake_faces   | CNN             | 0.504     | 0.624    | 0.819  |
 | deepfake_faces   | Xception        | 0.865     | 0.807    | 0.756  |
 | Celeb-DF(v2)     | Inception-RNN   | 0.643     | 0.653    | 0.664  |
 
-- **Note**: Table 4 presents the evaluation metrics including precision, F1 score, and recall on the testing set for each model.
+**Table 2**: presents the evaluation metrics including precision, F1 score, and recall on the testing set for each model.
